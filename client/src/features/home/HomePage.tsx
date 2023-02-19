@@ -1,5 +1,9 @@
-const HomePage = () => {
-  return <div>HomePage</div>;
-};
+import { Typography } from "@mui/material";
 
-export default HomePage;
+export default function HomePage() {
+    return (
+        <Typography variant="h2">
+            Home page
+        </Typography>
+    )
+}
